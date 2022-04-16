@@ -1,0 +1,22 @@
+@mixin flex-center-x-y {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@mixin fill-block {
+   height: 100%;
+   width: 100%;
+}
+
+@mixin flex-between {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@mixin flex-around {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}

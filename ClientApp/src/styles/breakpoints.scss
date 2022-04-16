@@ -1,0 +1,7 @@
+@import "styles/sizes.scss";
+
+$default: "min-width: calc(#{$min-width-fullscreen} + 1px)";
+$desktop: "min-width: 992px) and (max-width: #{$min-width-fullscreen}";
+$laptop: "min-width: 768px) and (max-width: 992px";
+$tablet: "min-width: 601px) and (max-width: 768px";
+$mobile: "max-width: 600px";

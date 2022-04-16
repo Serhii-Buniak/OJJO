@@ -1,0 +1,21 @@
+@mixin createArrow($color, $directions: null, $padding: 3px, $width: 2px) {
+    border: solid $color;
+    border-width: 0 $width $width 0;
+    display: inline-block;
+    padding: $padding $padding;
+
+    $transform: map-get(
+        (
+            left: 135deg,
+            up: -135deg,
+            right: -45deg,
+            down: 45deg,
+        ),
+        $directions
+    );
+
+    @if $directions != null {
+        transform: rotate($transform);
+        -webkit-transform: rotate($transform);
+    }
+}

@@ -1,0 +1,10 @@
+@import "styles/nullstyle.scss";
+@import "styles/fonts.scss";
+
+#root {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: min-content 1fr auto;
+    background-color: #f9f9f9;   
+}
+
